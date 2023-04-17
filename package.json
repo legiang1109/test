@@ -1,0 +1,40 @@
+{
+  "name": "countdown-timer",
+  "version": "1.0.0",
+  "description": "A React.js app that takes a submitted future date and displays a timer counting down to that date.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autumnchris/countdown-timer.git"
+  },
+  "author": "autumnchris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/autumnchris/countdown-timer/issues"
+  },
+  "homepage": "https://autumnchris.github.io/countdown-timer",
+  "dependencies": {
+    "moment": "^2.27.0",
+    "normalize.css": "^5.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.0.0",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
